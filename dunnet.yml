@@ -336,7 +336,8 @@ rooms:
     description: "You are at the south end of a north/south passageway.  There is a hole in the floor here, into which you could probably fit."
     inventory: []
     directions: 
-      - north: 1
+      - north: 31
+      - down: 35
     requirements: []
     light: false
   - 34:
@@ -344,7 +345,9 @@ rooms:
     description: "You are in what appears to be a worker's bedroom.  There is a queen-sized bed in the middle of the room, and a painting hanging on the wall.  A door leads to another room to the south, and stairways lead up and down."
     inventory: []
     directions: 
-      - north: 1
+      - south: 35
+      - up: 32
+      - down: 37
     requirements: []
     light: false
   - 35:
@@ -352,7 +355,7 @@ rooms:
     description: "You are in a bathroom built for workers in the cave.  There is a urinal hanging on the wall, and some exposed pipes on the opposite wall where a sink used to be.  To the north is a bedroom."
     inventory: []
     directions: 
-      - north: 1
+      - north: 34
     requirements: []
     light: false
   - 36:
@@ -360,7 +363,6 @@ rooms:
     description: "This is a marker for the urinal.  User will not see this, but it is a room that can contain objects."
     inventory: []
     directions: 
-      - north: 1
     requirements: []
     light: false
   - 37:
@@ -368,7 +370,8 @@ rooms:
     description: "You are at the northeast end of a northeast/southwest passageway.  Stairs lead up out of sight."
     inventory: []
     directions: 
-      - north: 1
+      - southwest: 38
+      - up: 34
     requirements: []
     light: false
   - 38:
@@ -376,7 +379,10 @@ rooms:
     description: "You are at the junction of northeast/southwest and east/west passages."
     inventory: []
     directions: 
-      - north: 1
+      - east: 40
+      - west: 41
+      - northeast: 37
+      - southwest: 39
     requirements: []
     light: false
   - 39:
@@ -384,7 +390,7 @@ rooms:
     description: "You are at the southwest end of a northeast/southwest passageway."
     inventory: []
     directions: 
-      - north: 1
+      - northeast: 38
     requirements: []
     light: false
   - 40:
@@ -392,7 +398,8 @@ rooms:
     description: "You are at the east end of an E/W passage.  There are stairs leading up to a room above."
     inventory: []
     directions: 
-      - north: 1
+      - west: 38
+      - up: 42
     requirements: []
     light: false
   - 41:
@@ -400,7 +407,8 @@ rooms:
     description: "You are at the west end of an E/W passage.  There is a hole on the ground which leads down out of sight."
     inventory: []
     directions: 
-      - north: 1
+      - east: 38
+      - down: 43
     requirements: []
     light: false
   - 42:
@@ -408,7 +416,7 @@ rooms:
     description: "You are in a room which is bare, except for a horseshoe shaped boulder in the center.  Stairs lead down from here."
     inventory: []
     directions: 
-      - north: 1
+      - down: 40
     requirements: []
     light: false
   - 43:
@@ -416,7 +424,8 @@ rooms:
     description: "You are in a room which is completely empty.  Doors lead out to the north and east."
     inventory: []
     directions: 
-      - north: 1
+      - north: 44
+      - east: 46
     requirements: []
     light: false
   - 44:
@@ -424,7 +433,8 @@ rooms:
     description: "You are in an empty room.  Interestingly enough, the stones in this room are painted blue.  Doors lead out to the east and south."
     inventory: []
     directions: 
-      - north: 1
+      - south: 43
+      - east: 45
     requirements: []
     light: false
   - 45:
@@ -432,7 +442,8 @@ rooms:
     description: "You are in an empty room.  Interestingly enough, the stones in this room are painted yellow.  Doors lead out to the south and west."
     inventory: []
     directions: 
-      - north: 1
+      - south: 46
+      - west: 44
     requirements: []
     light: false
   - 46:
@@ -440,7 +451,9 @@ rooms:
     description: "You are in an empty room.  Interestingly enough, the stones in this room are painted red.  Doors lead out to the west and north."
     inventory: []
     directions: 
-      - north: 1
+      - north: 45
+      - west: 43
+      - down: 255
     requirements: []
     light: false
   - 47:
@@ -448,7 +461,8 @@ rooms:
     description: "You are in the middle of a long north/south hallway."
     inventory: []
     directions: 
-      - north: 1
+      - north: 48
+      - south: 50
     requirements: []
     light: false
   - 48:
@@ -456,7 +470,8 @@ rooms:
     description: "You are 3/4 of the way towards the north end of a long north/south hallway."
     inventory: []
     directions: 
-      - north: 1
+      - north: 49
+      - south: 47
     requirements: []
     light: false
   - 49:
@@ -464,7 +479,8 @@ rooms:
     description: "You are at the north end of a long north/south hallway.  There are stairs leading upwards."
     inventory: []
     directions: 
-      - north: 1
+      - south: 48
+      - up: 52
     requirements: []
     light: false
   - 50:
@@ -472,7 +488,8 @@ rooms:
     description: "You are 3/4 of the way towards the south end of a long north/south hallway."
     inventory: []
     directions: 
-      - north: 1
+      - north: 47
+      - south: 51
     requirements: []
     light: false
   - 51:
@@ -480,7 +497,8 @@ rooms:
     description: "You are at the south end of a long north/south hallway.  There is a hole to the south."
     inventory: []
     directions: 
-      - north: 1
+      - north: 50
+      - south: 104
     requirements: []
     light: false
   - 52:
@@ -488,7 +506,8 @@ rooms:
     description: "You are at a landing in a stairwell which continues up and down."
     inventory: []
     directions: 
-      - north: 1
+      - up: 53
+      - down: 49
     requirements: []
     light: false
   - 53:
@@ -496,7 +515,8 @@ rooms:
     description: "You are at the continuation of an up/down staircase."
     inventory: []
     directions: 
-      - north: 1
+      - up: 54
+      - down: 52
     requirements: []
     light: false
   - 54:
@@ -504,7 +524,8 @@ rooms:
     description: "You are at the top of a staircase leading down.  A crawlway leads off to the northeast."
     inventory: []
     directions: 
-      - north: 1
+      - northeast: 55
+      - down: 53
     requirements: []
     light: false
   - 55:
@@ -512,7 +533,9 @@ rooms:
     description: "You are in a crawlway that leads northeast or southwest."
     inventory: []
     directions: 
-      - north: 1
+      - northeast: 56
+      - southwest: 54
+      - out: 54
     requirements: []
     light: false
   - 56:
@@ -520,7 +543,8 @@ rooms:
     description: "You are in a small crawlspace.  There is a hole in the ground here, and a small passage back to the southwest."
     inventory: []
     directions: 
-      - north: 1
+      - southwest: 55
+      - down: 31
     requirements: []
     light: false
   - 57:
@@ -528,7 +552,7 @@ rooms:
     description: "You are in the Gamma Computing Center.  An IBM 3090/600s is whirring away in here.  There is an ethernet cable coming out of one of the units, and going through the ceiling.  There is no console here on which you could type."
     inventory: []
     directions: 
-      - north: 1
+      - east: 32
     requirements: []
     light: false
   - 58:
@@ -536,7 +560,10 @@ rooms:
     description: "You are near the remains of a post office.  There is a mail drop on the face of the building, but you cannot see where it leads.  A path leads back to the east, and a road leads to the north."
     inventory: []
     directions: 
-      - north: 1
+      - north: 59
+      - east: 11
+      - in: 255
+      - out: 255
     requirements: []
     light: true
   - 59:
@@ -544,7 +571,12 @@ rooms:
     description: "You are at the intersection of Main Street and Maple Ave.  Main street runs north and south, and Maple Ave runs east off into the distance.  If you look north and east you can see many intersections, but all of the buildings that used to stand here are gone.  Nothing remains except street signs.  There is a road to the northwest leading to a gate that guards a building."
     inventory: []
     directions: 
-      - north: 1
+      - north: 60
+      - south: 58
+      - east: 63
+      - northwest: 255
+      - in: 255
+      - out: 255
     requirements: []
     light: true
   - 60:
@@ -552,7 +584,11 @@ rooms:
     description: "You are at the intersection of Main Street and the west end of Oaktree Ave."
     inventory: []
     directions: 
-      - north: 1
+      - north: 61
+      - south: 59
+      - east: 64
+      - in: 255
+      - out: 255
     requirements: []
     light: true
   - 61:
@@ -560,7 +596,11 @@ rooms:
     description: "You are at the intersection of Main Street and the west end of Vermont Ave."
     inventory: []
     directions: 
-      - north: 1
+      - north: 62
+      - south: 60
+      - east: 65
+      - in: 255
+      - out: 255
     requirements: []
     light: true
   - 62:
@@ -568,7 +608,10 @@ rooms:
     description: "You are at the north end of Main Street at the west end of Sycamore Ave."
     inventory: []
     directions: 
-      - north: 1
+      - south: 61
+      - east: 66
+      - in: 255
+      - out: 255
     requirements: []
     light: true
   - 63:
@@ -576,7 +619,11 @@ rooms:
     description: "You are at the south end of First Street at Maple Ave."
     inventory: []
     directions: 
-      - north: 1
+      - north: 64
+      - east: 67
+      - west: 59
+      - in: 255
+      - out: 255
     requirements: []
     light: true
   - 64:
@@ -584,7 +631,12 @@ rooms:
     description: "You are at the intersection of First Street and Oaktree Ave."
     inventory: []
     directions: 
-      - north: 1
+      - north: 65
+      - south: 63
+      - east: 68
+      - west: 60
+      - in: 255
+      - out: 255
     requirements: []
     light: true
   - 65:
@@ -592,7 +644,12 @@ rooms:
     description: "You are at the intersection of First Street and Vermont Ave."
     inventory: []
     directions: 
-      - north: 1
+      - north: 66
+      - south: 64
+      - east: 69
+      - west: 61
+      - in: 255
+      - out: 255
     requirements: []
     light: true
   - 66:
@@ -600,7 +657,11 @@ rooms:
     description: "You are at the north end of First Street at Sycamore Ave."
     inventory: []
     directions: 
-      - north: 1
+      - south: 65
+      - east: 70
+      - west: 62
+      - in: 255
+      - out: 255
     requirements: []
     light: true
   - 67:
@@ -608,7 +669,11 @@ rooms:
     description: "You are at the south end of Second Street at Maple Ave."
     inventory: []
     directions: 
-      - north: 1
+      - north: 68
+      - east: 71
+      - west: 63
+      - in: 255
+      - out: 255
     requirements: []
     light: true
   - 68:
@@ -616,7 +681,12 @@ rooms:
     description: "You are at the intersection of Second Street and Oaktree Ave."
     inventory: []
     directions: 
-      - north: 1
+      - north: 69
+      - south: 67
+      - east: 72
+      - west: 64
+      - in: 255
+      - out: 255
     requirements: []
     light: true
   - 69:
@@ -624,7 +694,12 @@ rooms:
     description: "You are at the intersection of Second Street and Vermont Ave."
     inventory: []
     directions: 
-      - north: 1
+      - north: 70
+      - south: 68
+      - east: 73
+      - west: 65
+      - in: 255
+      - out: 255
     requirements: []
     light: true
   - 70:
@@ -632,7 +707,11 @@ rooms:
     description: "You are at the north end of Second Street at Sycamore Ave."
     inventory: []
     directions: 
-      - north: 1
+      - south: 69
+      - east: 74
+      - west: 66
+      - in: 255
+      - out: 255
     requirements: []
     light: true
   - 71:
@@ -640,7 +719,11 @@ rooms:
     description: "You are at the south end of Third Street at Maple Ave."
     inventory: []
     directions: 
-      - north: 1
+      - north: 72
+      - east: 75
+      - west: 67
+      - in: 255
+      - out: 255
     requirements: []
     light: true
   - 72:
@@ -648,7 +731,12 @@ rooms:
     description: "You are at the intersection of Third Street and Oaktree Ave."
     inventory: []
     directions: 
-      - north: 1
+      - north: 73
+      - south: 71
+      - east: 76
+      - west: 68
+      - in: 255
+      - out: 255
     requirements: []
     light: true
   - 73:
@@ -656,7 +744,12 @@ rooms:
     description: "You are at the intersection of Third Street and Vermont Ave."
     inventory: []
     directions: 
-      - north: 1
+      - north: 74
+      - south: 72
+      - east: 77
+      - west: 69
+      - in: 255
+      - out: 255
     requirements: []
     light: true
   - 74:
@@ -664,7 +757,11 @@ rooms:
     description: "You are at the north end of Third Street at Sycamore Ave."
     inventory: []
     directions: 
-      - north: 1
+      - south: 73
+      - east: 78
+      - west: 70
+      - in: 255
+      - out: 255
     requirements: []
     light: true
   - 75:
@@ -672,7 +769,11 @@ rooms:
     description: "You are at the south end of Fourth Street at Maple Ave."
     inventory: []
     directions: 
-      - north: 1
+      - north: 76
+      - east: 79
+      - west: 71
+      - in: 255
+      - out: 255
     requirements: []
     light: true
   - 76:
@@ -680,7 +781,12 @@ rooms:
     description: "You are at the intersection of Fourth Street and Oaktree Ave."
     inventory: []
     directions: 
-      - north: 1
+      - north: 77
+      - south: 75
+      - east: 80
+      - west: 72
+      - in: 255
+      - out: 255
     requirements: []
     light: true
   - 77:
@@ -688,7 +794,12 @@ rooms:
     description: "You are at the intersection of Fourth Street and Vermont Ave."
     inventory: []
     directions: 
-      - north: 1
+      - north: 78
+      - south: 76
+      - east: 81
+      - west: 73
+      - in: 255
+      - out: 255
     requirements: []
     light: true
   - 78:
@@ -696,7 +807,11 @@ rooms:
     description: "You are at the north end of Fourth Street at Sycamore Ave."
     inventory: []
     directions: 
-      - north: 1
+      - south: 77
+      - east: 82
+      - west: 74
+      - in: 255
+      - out: 255
     requirements: []
     light: true
   - 79:
@@ -704,7 +819,10 @@ rooms:
     description: "You are at the south end of Fifth Street at the east end of Maple Ave."
     inventory: []
     directions: 
-      - north: 1
+      - north: 80
+      - west: 75
+      - in: 255
+      - out: 255
     requirements: []
     light: true
   - 80:
@@ -712,7 +830,12 @@ rooms:
     description: "You are at the intersection of Fifth Street and the east end of Oaktree Ave. There is a cliff off to the east."
     inventory: []
     directions: 
-      - north: 1
+      - north: 81
+      - south: 79
+      - east: 255
+      - west: 76
+      - in: 255
+      - out: 255
     requirements: []
     light: true
   - 81:
@@ -720,7 +843,11 @@ rooms:
     description: "You are at the intersection of Fifth Street and the east end of Vermont Ave."
     inventory: []
     directions: 
-      - north: 1
+      - north: 82
+      - south: 80
+      - west: 77
+      - in: 255
+      - out: 255
     requirements: []
     light: true
   - 82:
@@ -728,7 +855,10 @@ rooms:
     description: "You are at the north end of Fifth Street and the east end of Sycamore Ave."
     inventory: []
     directions: 
-      - north: 1
+      - south: 81
+      - west: 78
+      - in: 255
+      - out: 255
     requirements: []
     light: true
   - 83:
@@ -736,7 +866,10 @@ rooms:
     description: "You are in front of the Museum of Natural History.  A door leads into the building to the north, and a road leads to the southeast."
     inventory: []
     directions: 
-      - north: 1
+      - north: 84
+      - southeast: 59
+      - in: 255
+      - out: 255
     requirements: []
     light: true
   - 84:
@@ -744,7 +877,8 @@ rooms:
     description: "You are in the main lobby for the Museum of Natural History.  In the center of the room is the huge skeleton of a dinosaur.  Doors lead out to the south and east."
     inventory: []
     directions: 
-      - north: 1
+      - south: 83
+      - east: 85
     requirements: []
     light: false
   - 85:
@@ -752,7 +886,9 @@ rooms:
     description: "You are in the geological display.  All of the objects that used to be on display are missing.  There are rooms to the east, west, and north."
     inventory: []
     directions: 
-      - north: 1
+      - north: 86
+      - east: 87
+      - west: 84
     requirements: []
     light: false
   - 86:
@@ -760,7 +896,8 @@ rooms:
     description: "You are in the marine life area.  The room is filled with fish tanks, which are filled with dead fish that have apparently died due to starvation.  Doors lead out to the south and east."
     inventory: []
     directions: 
-      - north: 1
+      - south: 85
+      - east: 88
     requirements: []
     light: false
   - 87:
@@ -768,7 +905,8 @@ rooms:
     description: "You are in some sort of maintenance room for the museum.  There is a switch on the wall labeled 'BL'.  There are doors to the west and north."
     inventory: []
     directions: 
-      - north: 1
+      - north: 88
+      - west: 85
     requirements: []
     light: false
   - 88:
@@ -776,7 +914,9 @@ rooms:
     description: "You are in a classroom where school children were taught about natural history.  On the blackboard is written, 'No children allowed downstairs.' There is a door to the east with an 'exit' sign on it.  There is another door to the west."
     inventory: []
     directions: 
-      - north: 1
+      - south: 87
+      - east: 255
+      - west: 86
     requirements: []
     light: false
   - 89:
@@ -784,7 +924,7 @@ rooms:
     description: "You are at the Vermont St. subway station.  A train is sitting here waiting."
     inventory: []
     directions: 
-      - north: 1
+      - in: 255
     requirements: []
     light: false
   - 90:
@@ -792,7 +932,7 @@ rooms:
     description: "You are at the Museum subway stop.  A passage leads off to the north."
     inventory: []
     directions: 
-      - north: 1
+      - north: 91
     requirements: []
     light: false
   - 91:
@@ -800,7 +940,8 @@ rooms:
     description: "You are in a north/south tunnel."
     inventory: []
     directions: 
-      - north: 1
+      - north: 92
+      - south: 90
     requirements: []
     light: false
   - 92:
@@ -808,7 +949,9 @@ rooms:
     description: "You are at the north end of a north/south tunnel.  Stairs lead up and down from here.  There is a garbage disposal here."
     inventory: []
     directions: 
-      - north: 1
+      - south: 91
+      - up: 93
+      - down: 94
     requirements: []
     light: false
   - 93:
@@ -816,7 +959,8 @@ rooms:
     description: "You are at the top of some stairs near the subway station.  There is a door to the west."
     inventory: []
     directions: 
-      - north: 1
+      - west: 88
+      - down : 92
     requirements: []
     light: false
   - 94:
@@ -824,7 +968,8 @@ rooms:
     description: "You are at the bottom of some stairs near the subway station.  There is a room to the northeast."
     inventory: []
     directions: 
-      - north: 1
+      - northeast: 95
+      - up: 92
     requirements: []
     light: false
   - 95:
@@ -832,7 +977,7 @@ rooms:
     description: "You are in another computer room.  There is a computer in here larger than you have ever seen.  It has no manufacturers name on it, but it does have a sign that says: This machine's name is 'endgame'.  The exit is to the southwest.  There is no console here on which you could type."
     inventory: []
     directions: 
-      - north: 1
+      - southwest: 94
     requirements: []
     light: false
   - 96:
@@ -840,7 +985,7 @@ rooms:
     description: "You are in a north/south hallway."
     inventory: []
     directions: 
-      - north: 1
+      - north: 97
     requirements: []
     light: false
   - 97:
@@ -848,7 +993,6 @@ rooms:
     description: "You have reached a question room.  You must answer a question correctly in order to get by.  Use the 'answer' command to answer the question."
     inventory: []
     directions: 
-      - north: 1
     requirements: []
     light: false
   - 98:
@@ -856,7 +1000,8 @@ rooms:
     description: "You are in a north/south hallway."
     inventory: []
     directions: 
-      - north: 1
+      - north: 99
+      - south: 97
     requirements: []
     light: false
   - 99:
@@ -864,7 +1009,6 @@ rooms:
     description: "You are in a second question room."
     inventory: []
     directions: 
-      - north: 1
     requirements: []
     light: false
   - 100:
@@ -872,7 +1016,8 @@ rooms:
     description: "You are in a north/south hallway."
     inventory: []
     directions: 
-      - north: 1
+      - north: 101
+      - south: 99
     requirements: []
     light: false
   - 101:
@@ -880,7 +1025,6 @@ rooms:
     description: "You are in a third question room."
     inventory: []
     directions: 
-      - north: 1
     requirements: []
     light: false
   - 102:
@@ -888,7 +1032,8 @@ rooms:
     description: "You are in the endgame treasure room.  A door leads out to the north, and a hallway leads to the south."
     inventory: []
     directions: 
-      - north: 1
+      - north: 103
+      - south: 101
     requirements: []
     light: false
   - 103:
@@ -896,7 +1041,7 @@ rooms:
     description: "You are in the winner's room.  A door leads back to the south."
     inventory: []
     directions: 
-      - north: 1
+      - south: 102
     requirements: []
     light: false
   - 104:
@@ -904,6 +1049,447 @@ rooms:
     description: "You have reached a dead end.  There is a PC on the floor here.  Above it is a sign that reads: Type the 'reset' command to type on the PC.  A hole leads north."
     inventory: []
     directions: 
-      - north: 1
+      - north: 51
     requirements: []
     light: false
+objects:
+  - 0:
+    name: "A Shovel"
+    longName: "There is a shovel here."
+    description: "It is a normal shovel with a price tag attached that says $19.99."
+    aliases:
+      - "shovel"
+    weight: 2
+    points: 0
+  - 1:
+    name: "A Lamp"
+    longName: "There is a lamp nearby."
+    description: "The lamp is hand-crafted by Geppetto."
+    aliases: 
+      - "lamp"
+    weight: 1
+    points: 0
+  - 2:
+    name: "A computer board"
+    longName: "There is a CPU card here"
+    description: "The CPU board has a VAX chip on it.  It seems to have 2 Megabytes of RAM onboard."
+    aliases: 
+      - "cpu"
+      - "board"
+      - "card"
+      - "chip"
+    weight: 1
+    points: 0
+  - 3:
+    name: "Some food"
+    longName: "There is some food here."
+    description: "It looks like some kind of meat.  Smells pretty bad."
+    aliases:
+      - "food"
+    weight: 1
+    points: 0
+  - 4: 
+    name: "A brass key"
+    longName: "There is a shiny brass key here."
+    description: ""
+    aliases:
+      - "key"
+    weight: 1
+    points: 0
+  - 5:
+    name: "A slip of paper"
+    longName: "There is a slip of paper here."
+    description: "The paper says: Don't forget to type 'help' for help.  Also, remember the word: 'worms'"
+    aliases:
+      - "paper"
+      - "slip" 
+    weight: 0
+    points: 0
+  - 6:
+    name: "An RMS statuette"
+    longName: "There is a wax statuette of Richard Stallman here."
+    description: "The statuette is of the likeness of Richard Stallman, the author of the famous EMACS editor.  You notice that he not wearing and shoes."
+    aliases:
+      - "rms"
+      - "statue"
+      - "statuette"
+      - "stallman"
+    weight: 2
+    points: 0
+  - 7:
+    name: "A diamond"
+    longName: "There is a shimering diamond here."
+    description: ""
+    aliases:
+      - "diamond" 
+    weight: 2
+    points: 10
+  - 8:
+    name: "A weight"
+    longName: "There is a 10 pound weight here."
+    description: "You observe that the weight is heavy."
+    aliases: 
+      - "weight" 
+    weight: 10
+    points: 0
+  - 9:
+    name: "A life preserver"
+    longName: "There is a life perserver here."
+    description: "It says S. S. Minnow."
+    aliases:
+      - "life"
+      - "preserver" 
+    weight: 3
+    points: 0
+  - 10:
+    name: "A bracelet"
+    longName: "There is an emerald bracelet here."
+    description: ""
+    aliases:
+      - "braclet"
+      - "emerald" 
+    weight: 1
+    points: 10
+  - 11: 
+    name: "A gold bar"
+    longName: "There is a gold bar here."
+    description: ""
+    aliases:
+      - "gold" 
+    weight: 1
+    points: 10
+  - 12: 
+    name: "A platinum bar"
+    longName: "There is a platinum bar here."
+    description: ""
+    aliases:
+      - "platinum" 
+    weight: 1
+    points: 10
+  - 13:
+    name: "A beach towel"
+    longName: "There is a beach towel on the ground here."
+    description: "It has a picture of snoopy on it."
+    aliases:
+      - "towel"
+      - "beach" 
+    weight: 0
+    points: 0
+  - 14:
+    name: "An axe"
+    longName: "There is an axe here."
+    description: ""
+    aliases:
+      - "axe" 
+    weight: 1
+    points: 0
+  - 15:
+    name: "A silver bar"
+    longName: "There is a silver bar here."
+    description: ""
+    aliases: 
+      - "silver"
+    weight: 1
+    points: 10
+  - 16:
+    name: "A license"
+    longName: "There is a bus driver's license here."
+    description: "It has your picture on it!"
+    aliases:
+      - "license" 
+    weight: 0
+    points: 0
+  - 17:
+    name: "Some valuable coins"
+    longName: "There are some valuable coins here."
+    description: "They are old coins from the 19th century."
+    aliases:
+      - "coins" 
+    weight: 1
+    points: 10
+  - 18:
+    name: "A valuable egg"
+    longName: "There is a jewel-encrusted egg here."
+    description: "It is a valuable Fabrege egg."
+    aliases: 
+      - "egg" 
+    weight: 1
+    points: 10
+  - 19: 
+    name: "A glass jar"
+    longName: "There is a glass jar here."
+    description: "It is a plain glass jar."
+    aliases: 
+      - "jar" 
+    weight: 1
+    points: 0
+  - 20:
+    name: "A bone"
+    longName: "There is a dinosaur bone here."
+    description: ""
+    aliases: 
+      - "bone"
+    weight: 1
+    points: 0
+  - 21:
+    name: "Some nitric acid"
+    longName: "There is a packet of nitric acid here."
+    description: ""
+    aliases:
+      - "acid"
+      - "nitric"
+    weight: 0
+    points: 0
+  - 22:
+    name: "Some glycerine"
+    longName: "There is a packet of glycerine here."
+    description: ""
+    aliases:
+      - "glycerine"
+    weight: 0
+    points: 0
+  - 23:
+    name: "A ruby"
+    longName: "There is avaluable ruby here."
+    description: ""
+    aliases:
+      - "ruby"
+    weight: 2
+    points: 10
+  - 24:
+    name: "An amethyst"
+    longName: "There is a valuable amethyst here."
+    description: ""
+    aliases:
+      - "amethyst"
+    weight: 2
+    points: 10
+  - 25:
+    name: "The Mona Lisa"
+    longName: "The Mona Lisa is here."
+    description: ""
+    aliases:
+      - "mona"
+    weight: 1
+    points: 10
+  - 26:
+    name: "A $100 bill"
+    longName: "there is a 100 dollar bill here."
+    description: ""
+    aliases:
+      - "bill"
+    weight: 0
+    points: 10
+  - 27:
+    name: "A floppy disk"
+    longName: "There is a floppy disk here."
+    description: ""
+    aliases:
+      - "floppy"
+      - "disk"
+    weight: 0
+    points: 0
+permanents:
+  - 1:
+    name: ""
+    longName: "There is a large boulder here."
+    description: "It is just a boulder.  It cannot be moved."
+    aliases:
+      - "boulder"
+  - 2:
+    name: ""
+    longName: ""
+    description: "They are palm trees with a bountiful supply of coconuts in them."
+    aliases:
+      - "tree"
+      - "trees"
+      - "palm"
+  - 3:
+    name: ""
+    longName: "There is a ferocious bear here!"
+    description: "It looks like a grizzly to me."
+    aliases:
+      - "bear"
+  - 4:
+    name: ""
+    longName: ""
+    description: "All of the bins are empty.  Looking closely you can see that there\nare names written at the bottom of each bin, but most of them are\nfaded away so that you cannot read them. you can only make out three\nnames:\n\t\t\t\t\t\t\t\t\t Jeffrey Collier\n\t\t\t\t\t\t\t\t\t Robert Toukmond\n\t\t\t\t\t\t\t\t\t Thomas Stock"
+    aliases:
+      - "bin"
+      - "bins"
+  - 5:
+    name: ""
+    longName: ""
+    description: ""
+    aliases:
+      - "cabinet"
+      - "computer"
+      - "vax"
+      - "ibm"
+  - 6:
+    name: ""
+    longName: "There is a worthless pile of protoplasm here."
+    description: "It is just a garbled mess/"
+    aliases:
+      - "protoplasm"
+  - 7:
+    name: ""
+    longName: ""
+    description: "The dial points to a temperature scale which has long since faded away."
+    aliases:
+      - "dial"
+  - 8:
+    name: ""
+    longName: ""
+    description: ""
+    aliases:
+      - "button"
+  - 9:
+    name: ""
+    longName: ""
+    description: ""
+    aliases:
+      - "chute"
+  - 10:
+    name: ""
+    longName: ""
+    description: "It is a velvet painting of Elvis Preseley.  It seems to be nailed to the\nwall, and you cannot move it"
+    aliases:
+      - "painting"
+  - 11:
+    name: ""
+    longName: ""
+    description: "It is a queen sized bed, with a very firm mattress."
+    aliases:
+      - "bed"
+  - 12:
+    name: ""
+    longName: ""
+    description: "The urinal is very clean compared with everything else in the cave.  There\nisn't even any rust.  Upon close examination you realize that the drain at the\nbottom is missing, and there is just a large hole leading down the\npipes into nowhere.  The hole is too small for a person to fit in.  the\nflush handle is so clean that you can see your reflection in it."
+    aliases:
+      - "urinal"
+  - 13:
+    name: ""
+    longName: "There is a strange smell in this room."
+    description: ""
+    aliases:
+      - "URINE"
+  - 14:
+    name: ""
+    longName: ""
+    description: ""
+    aliases:
+      - "pipes"
+      - "pipe"
+  - 15:
+    name: ""
+    longName: "There is a box with a slit in it, bolted to the well here."
+    description: "The box has a slit in the top of it, and on it, in sloppy handwriting, is\nwritten: 'For key upgrade, put key in here.'"
+    aliases:
+      - "box"
+      - "slit"
+  - 16:
+    name: ""
+    longName: ""
+    description: ""
+    aliases:
+      - "cable"
+      - "ethernet"
+  - 17:
+    name: ""
+    longName: ""
+    description: "It says 'express mail' on it."
+    aliases:
+      - "mail"
+      - "drop"
+  - 18:
+    name: ""
+    longName: "There is a bus"
+    description: "It is a 35 passenger bus with the company name 'mobytours' on it."
+    aliases:
+      - "bus"
+  - 19:
+    name: ""
+    longName: ""
+    description: "It is a large metal gate that is too big to climb over."
+    aliases:
+      - "gate"
+  - 20:
+    name: ""
+    longName: ""
+    description: "It is HIGH cliff."
+    aliases:
+      - "cliff"
+  - 21:
+    name: ""
+    longName: ""
+    description: "Unfortunately you do not know enough about dinosaurs to tell very much about\nit.  It is very big, though."
+    aliases:
+      - "skeleton"
+      - "dinossaur"
+  - 22:
+    name: ""
+    longName: ""
+    description: "The fish look like they were once quite beautiful."
+    aliases:
+      - "fish"
+  - 23:
+    name: ""
+    longName: ""
+    description: ""
+    aliases:
+      - "tanks"
+      - "tank"
+  - 24:
+    name: ""
+    longName: ""
+    description: ""
+    aliases:
+      - "switch"
+  - 25:
+    name: ""
+    longName: ""
+    description: ""
+    aliases:
+      - "blackboard"
+  - 26:
+    name: ""
+    longName: ""
+    description: ""
+    aliases:
+      - "disposal"
+      - "garbage"
+  - 27:
+    name: ""
+    longName: ""
+    description: "It is a normal ladder that is permanently attached to the hole."
+    aliases:
+      - "ladder"
+  - 28:
+    name: ""
+    longName: ""
+    description: "It is a passenger train that is ready to go."
+    aliases:
+      - "subway"
+      - "train"
+  - 29:
+    name: ""
+    longName: ""
+    description: "It is a personal computer that has only one floppy disk drive."
+    aliases:
+      - "pc"
+      - "drive"
+  - 30:
+    name: ""
+    longName: ""
+    description: ""
+    aliases:
+      - "coconut"
+      - "coconuts"
+  - 32:
+    name: ""
+    longName: ""
+    description: ""
+    aliases:
+      - "lake"
+      - "water"
