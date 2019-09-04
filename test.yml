@@ -1,0 +1,17 @@
+rooms:
+  - id: 0
+    name: "Treasure room"
+    description: "You are in the treasure room.  A door leads out to the north."
+    inventory: []
+    directions: 
+      - north: 96
+    requirements: []
+    light: true
+  - id: 1
+    name: "Dead end"
+    description: "You are at a dead end of a dirt road.  The road goes to the east.  In the distance you can see that it will eventually fork off.  The trees here are very tall royal palms, and they are spaced equidistant from each other."
+    inventory: []
+    directions: 
+      - east: 2
+    requirements: []
+    light: true

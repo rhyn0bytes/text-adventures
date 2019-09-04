@@ -1,13 +1,16 @@
 # Room class and any methods for interacting with the room.
 class Room
-  attr_accessor :description, :inventory, :directions, :requirements, :name, :visited
+  attr_accessor :description, :inventory, :directions, :requirements, :name, :visited, :light, :rejectMessage, :intro
 
-  def initialize(name, des, inv, dir, req)
+  def initialize(name, des, inv, dir, req, reject, lit, intro)
     self.name = name
     self.description = des
-    self.inventory = Array.new
-    self.directions = Array.new
-    self.requirements = Array.new
+    self.inventory = inv
+    self.directions = dir
+    self.requirements = req
+    self.rejectMessage = reject
+    self.light = lit
+    self.intro = intro
     self.visited = false
   end
 

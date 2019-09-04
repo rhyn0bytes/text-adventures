@@ -7,7 +7,7 @@ def gputs(text)                         # Simple way to make ruby puts output gr
 end
 
 def describe_room(player)                 # Port of dunnet describe room function
-  if !player.room.light && player.inventory.lamp
+  # if !player.room.light && player.inventory.lamp
 end
 
 def special_object()                    # Port of dunnet special object function
